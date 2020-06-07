@@ -1,0 +1,13 @@
+$(document).ready(function(){
+	console.log('hello!');
+	$("#First_Name").hide();
+	$("#Last_Name").hide();
+	$("#Address").hide();
+	$("#FOUR").hide();
+	$("button").click(function(){
+		$("#First_Name").fadeIn(500);
+		$("#Last_Name").fadeIn(1200);
+		$("#Address").fadeIn(2400);
+		$("#FOUR").fadeIn(3600);
+  });
+}); 
