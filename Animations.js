@@ -5,9 +5,9 @@ $(document).ready(function(){
 	$("#Address").hide();
 	$("#FOUR").hide();
 	$("button").click(function(){
-		$("#First_Name").fadeIn(500);
-		$("#Last_Name").fadeIn(1200);
-		$("#Address").fadeIn(2400);
-		$("#FOUR").fadeIn(3600);
+		$("#First_Name").fadeIn("slow");
+		$("#Last_Name").fadeIn("slow");
+		$("#Address").fadeIn("slow");
+		$("#FOUR").fadeIn("slow");
   });
 }); 
